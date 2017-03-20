@@ -56,6 +56,8 @@ struct netInfo {
 	const char* mqtt;
 	const char* ssid;
 	const char* pass;
+	const char* mqttUsername;
+	const char* mqttPassword;
 };
 typedef struct netInfo netInfo;
 
